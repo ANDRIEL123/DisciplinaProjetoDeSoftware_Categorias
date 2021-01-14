@@ -1,0 +1,98 @@
+[data-tooltip] {
+  position: relative;
+  font-weight: bold;
+}
+
+[data-tooltip]:after {
+  display: none;
+  position: absolute;
+  top: -2px;
+  font-size: 1.1vw;
+  margin-left: 0.5vw;
+  left: calc(100% + 2px);
+  content: attr(data-tooltip);
+  white-space: nowrap;
+  color: rgb(0, 3, 156);
+}
+
+[data-tooltip]:hover:after {
+  display: block;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+table {
+  font-family: arial, sans-serif;
+  justify-content: center;
+  border-collapse: collapse;
+  width: 70%;
+  align-items: center;
+}
+
+td, th {
+  text-align: center;
+  align-items: center;
+  padding: 1px;
+}
+
+tr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.App .header-app {
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 3, 156);
+  padding: 10px;
+}
+
+.App .corpo-inserir {
+  margin-top: 2vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.App .corpo-pesquisa {
+  margin-top: 2vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.App .corpo-listagem {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+}
+
+.App .corpo-listagem button {
+  margin-left: 1vw;
+  margin-top: 0.5vw;
+}
+
+.cadastra-subcategoria {
+  padding: 5px;
+}
+
+.cadastra-subcategoria:hover {
+  background-color: #0095ff;
+}
+
+.App .identificador_coluna {
+  width: 50%;
+}
+

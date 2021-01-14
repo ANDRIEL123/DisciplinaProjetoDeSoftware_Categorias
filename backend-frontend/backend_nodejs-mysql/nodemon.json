@@ -1,0 +1,12 @@
+{
+    "env": {
+        "MYSQL_USER": "root",
+        "MYSQL_PASSWORD": "root",
+        "MYSQL_DATABASE": "dbcategoria",
+        "MYSQL_HOST": "127.0.0.1",
+        "MYSQL_PORT": 3306
+    },
+    "message": {
+        "Se der erro na conexão do banco use": "alter user 'root'@'localhost' identified with mysql_native_password by 'root'; ou deixe a senha do usuario root zerada"
+    }
+}
